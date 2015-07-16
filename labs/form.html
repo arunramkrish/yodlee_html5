@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My HTML Form</title>
+		<script type="text/javascript" src="form.js">
+		</script>
+	</head>
+	<body>
+		<h1>HTML Form and Table</h1>
+		<div id="formDiv">
+			<form method="post" id="myhtmlForm" onsubmit="submitForm(this); return false;">
+				<input name="location" type="text" placeholder="Enter Location"></input>
+				<input name="tag" type="text" placeholder="Enter Tags separated by comma to filter later"></input>
+				<input type="submit" value="Submit"></input>
+				<button onclick="locationStore.printLocations();">Print</button>
+			</form>
+		</div>
+		<div id="tableDiv">
+		</div>
+	</body>
+</html>

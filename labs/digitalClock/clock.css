@@ -1,0 +1,18 @@
+div
+{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;         
+}
+h1
+{
+    font-size: 20px;
+    text-align: center;
+}
+#clock
+{
+    display: block;
+    margin: 0 auto;
+    background: #610B4B;
+    border: 2px solid grey;    
+}
